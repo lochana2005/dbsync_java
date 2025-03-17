@@ -9,14 +9,14 @@ import java.util.TimerTask;
 public class DatabaseSyncService {
 
 
-    private static final String LOCAL_DB_URL = "jdbc:mysql://127.0.0.1:3306/surabe_new";
-    private static final String LOCAL_DB_USER = "root";
-    private static final String LOCAL_DB_PASS = "Lochana5712@#";
+    private static final String LOCAL_DB_URL = "jdbc:mysql://127.0.0.1:3306/you_database";
+    private static final String LOCAL_DB_USER = "username";
+    private static final String LOCAL_DB_PASS = "password_local";
 
 
-    private static final String CLOUD_DB_URL = "jdbc:mysql://162.214.98.236:3306/surabecl_surabe_new";
-    private static final String CLOUD_DB_USER = "surabecl_root";
-    private static final String CLOUD_DB_PASS = "m8#$4n[CIfOp";
+    private static final String CLOUD_DB_URL = "jdbc:mysql://online_database_ip/database_name";
+    private static final String CLOUD_DB_USER = "username";
+    private static final String CLOUD_DB_PASS = "password_online_database";
 
     public static void main(String[] args) {
         Timer timer = new Timer();
